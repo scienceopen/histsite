@@ -11,6 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="AppendLog.vi" Type="VI" URL="../AppendLog.vi"/>
 		<Item Name="camnet.lvlib" Type="Library" URL="../camnet.lvlib"/>
 		<Item Name="Schedule.vi" Type="VI" URL="../Schedule.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -21,7 +22,6 @@
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
-			<Item Name="AppendLog.vi" Type="VI" URL="../AppendLog.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
