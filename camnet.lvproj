@@ -13,7 +13,11 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="AppendLog.vi" Type="VI" URL="../AppendLog.vi"/>
 		<Item Name="camnet.lvlib" Type="Library" URL="../camnet.lvlib"/>
+		<Item Name="Consumer.vi" Type="VI" URL="../Consumer.vi"/>
+		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="NeoProducer.vi" Type="VI" URL="../NeoProducer.vi"/>
 		<Item Name="Schedule.vi" Type="VI" URL="../Schedule.vi"/>
+		<Item Name="ShutdownDaily.vi" Type="VI" URL="../ShutdownDaily.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
