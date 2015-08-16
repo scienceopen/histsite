@@ -17,19 +17,31 @@
 		<Item Name="AppendLog.vi" Type="VI" URL="../AppendLog.vi"/>
 		<Item Name="camnet.lvlib" Type="Library" URL="../camnet.lvlib"/>
 		<Item Name="Consumer.vi" Type="VI" URL="../Consumer.vi"/>
+		<Item Name="GetNeoParams.vi" Type="VI" URL="../GetNeoParams.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="NeoProducer.vi" Type="VI" URL="../NeoProducer.vi"/>
 		<Item Name="NeoSetup.vi" Type="VI" URL="../NeoSetup.vi"/>
 		<Item Name="NeoShutdown.vi" Type="VI" URL="../NeoShutdown.vi"/>
 		<Item Name="Schedule.vi" Type="VI" URL="../Schedule.vi"/>
+		<Item Name="SetNeoParams.vi" Type="VI" URL="../SetNeoParams.vi"/>
 		<Item Name="ShutdownDaily.vi" Type="VI" URL="../ShutdownDaily.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
+				<Item Name="AT Get Int A.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/Config/AT Get Int A.vi"/>
+				<Item Name="AT Initialise Library A.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/AT Initialise Library A.vi"/>
+				<Item Name="AT Open A.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/AT Open A.vi"/>
+				<Item Name="AT_ErrorCodeHandler.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/Internal/AT_ErrorCodeHandler.vi"/>
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+			</Item>
+			<Item Name="atcoreA.dll" Type="Document" URL="atcoreA.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="atutilitya.dll" Type="Document" URL="atutilitya.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
