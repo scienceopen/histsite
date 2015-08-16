@@ -1,5 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="14008000">
+	<Property Name="CCSymbols" Type="Str"></Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="varPersistentID:{3FCBBAE2-4560-476D-AEAF-F105071A2174}" Type="Ref">/My Computer/camnet.lvlib/ALLSTOP</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -16,6 +19,8 @@
 		<Item Name="Consumer.vi" Type="VI" URL="../Consumer.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="NeoProducer.vi" Type="VI" URL="../NeoProducer.vi"/>
+		<Item Name="NeoSetup.vi" Type="VI" URL="../NeoSetup.vi"/>
+		<Item Name="NeoShutdown.vi" Type="VI" URL="../NeoShutdown.vi"/>
 		<Item Name="Schedule.vi" Type="VI" URL="../Schedule.vi"/>
 		<Item Name="ShutdownDaily.vi" Type="VI" URL="../ShutdownDaily.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
