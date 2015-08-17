@@ -27,10 +27,28 @@
 		<Item Name="ShutdownDaily.vi" Type="VI" URL="../ShutdownDaily.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
+				<Item Name="AT Centre AOI.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/Config/AT Centre AOI.vi"/>
+				<Item Name="AT Clear All Buffers A.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/Data/AT Clear All Buffers A.vi"/>
+				<Item Name="AT Close A.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/AT Close A.vi"/>
+				<Item Name="AT Command A.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/AT Command A.vi"/>
+				<Item Name="AT Create Buffer A.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/Data/AT Create Buffer A.vi"/>
+				<Item Name="AT Finalise Library A.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/AT Finalise Library A.vi"/>
+				<Item Name="AT Flush A.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/Data/AT Flush A.vi"/>
+				<Item Name="AT Get Enum Index A.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/Config/AT Get Enum Index A.vi"/>
+				<Item Name="AT Get Enum String By Index A.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/Config/AT Get Enum String By Index A.vi"/>
 				<Item Name="AT Get Int A.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/Config/AT Get Int A.vi"/>
 				<Item Name="AT Initialise Library A.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/AT Initialise Library A.vi"/>
 				<Item Name="AT Open A.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/AT Open A.vi"/>
+				<Item Name="AT Queue Buffer A.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/Data/AT Queue Buffer A.vi"/>
+				<Item Name="AT Set Enum String A.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/Config/AT Set Enum String A.vi"/>
+				<Item Name="AT Set Float A.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/Config/AT Set Float A.vi"/>
+				<Item Name="AT Set Int A.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/Config/AT Set Int A.vi"/>
+				<Item Name="AT Wait Buffer A.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/Data/AT Wait Buffer A.vi"/>
 				<Item Name="AT_ErrorCodeHandler.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/Internal/AT_ErrorCodeHandler.vi"/>
+				<Item Name="GetPixelData.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/Data/GetPixelData.vi"/>
+				<Item Name="GetPixelData16.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/Data/GetPixelData16.vi"/>
+				<Item Name="GetPixelData32.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/Data/GetPixelData32.vi"/>
+				<Item Name="PointerToArray.vi" Type="VI" URL="/&lt;userlib&gt;/AndorSDK3/Data/PointerToArray.vi"/>
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
