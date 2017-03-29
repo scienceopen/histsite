@@ -10,6 +10,7 @@ Tradeoff of sample rate vs. fire pulse width vs. disk space.
 
 TODO: breaking issue do to apparent synchronous reads from task.read.
 Would nidaqmx.streaming_readers fix this?
+https://github.com/scivision/python-performance/blob/master/h5py_write_speed.py shows that conversions and writing takes less than 50ms.
 """
 #import serial # TODO grab GPS time to start
 from time import time,sleep
