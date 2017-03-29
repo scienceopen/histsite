@@ -7,6 +7,9 @@ Maybe answer is to do time conversion on the fly. Make final output be unix time
 Another topology is to acquire N channels each second and retrigger on GPS 1PPS. This would introduce
 elimiation of NI-DAQ clock drift, but is that actually significant, particularly if converting time each second?
 Tradeoff of sample rate vs. fire pulse width vs. disk space.
+
+TODO: breaking issue do to apparent synchronous reads from task.read.
+Would nidaqmx.streaming_readers fix this?
 """
 #import serial # TODO grab GPS time to start
 from time import time,sleep
